@@ -77,5 +77,5 @@ function verificar(){ // Quando apertar o botão
         //res.style.textAlign = 'center'  -->  vai centralizar o texto abaixo sem o CSS
         res.innerHTML = `Detectamos que é ${genero} e tem ${idade} anos.`
         res.appendChild(img) // Adicionar mais uma linha
-    }
+    }//teste
 }
