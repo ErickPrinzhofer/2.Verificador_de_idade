@@ -1,0 +1,52 @@
+body{
+    background-color: aqua;
+}
+
+
+section{
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    margin:auto;
+    box-shadow: 5px 5px 10px;
+    text-align: center;
+
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 3px;
+    text-align: center;
+}
+
+#foto{
+    margin-top: 10px;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    padding: 17px;
+    font-style: italic;
+    text-align: center;
+    font-size: small;
+    text-shadow: 1px 1px 19px;
+}

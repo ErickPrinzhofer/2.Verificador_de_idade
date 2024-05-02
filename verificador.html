@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador idade</title>
+    <link rel="stylesheet" href="verificador.css"> <!-- Criador do css-->
+    <script src = 'verificador.js'></script>       <!-- Criador do JS--> 
+</head>
+
+<body>
+    <header>
+        <h1>
+            Verificador de idade
+        </h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Ano de nascimento:
+                <input type="number" name="txtano" id="txtano"> <!-- min="1900" max="2090" Valor mínimo possivel colocar-->
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name="radsex" id="masc" checked> <!-- checked é pra deixar marcado automaticamente, obrigando a ser usado-->
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="femi">
+                <label for="femi">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id = 'res'>
+            Preencha os dados acima para ver o resultado!
+        </div>
+
+    </section>
+    
+    <footer>
+        &reg;Erick Prinzhofer
+    </footer>
+</body>
+</html>
